@@ -4,3 +4,13 @@ body {
   font-family: sans-serif;
   text-align: center;
 }
+
+a {
+  text-decoration: none;
+  margin: 5px 5px 0 5px;
+  padding: 5px;
+}
+
+a.active, a:hover {
+  color: orange;
+}
